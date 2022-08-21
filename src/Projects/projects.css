@@ -1,0 +1,41 @@
+.projectsContainer {
+    text-align: center;
+    scroll-margin-block-start: 80px;
+}
+
+.projectsContainer img {
+    width: 350px;
+    height: auto;
+}
+
+.projectsContainer h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFAC00;
+    margin: 50px 0;
+}
+
+.projectsContainer h3 {
+    color: rgb(38, 166, 154);
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.projectWrapper {
+    display: grid;
+    justify-content: center;
+    text-align: initial;
+}
+
+.projectDescription {
+    width: 318px;
+    background: #fff;
+    color: #000;
+    padding: 16px;
+    font-size: 17px;
+}
+
+.projectDescription b {
+    font-size: 18px;
+}
