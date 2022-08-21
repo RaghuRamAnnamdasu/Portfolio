@@ -37,7 +37,7 @@ export function AboutSection({aboutRef}) {
                         </div>
                         <div className="downloadResumeWrapper">
                             {/* <a target="_blank" href="./Resume.pdf">Download this</a> */}
-                            <a className="downloadResume"  download="Resume" href="./Resume.pdf">Download Resume</a>
+                            <a className = "downloadResume"  href = "./Resume.pdf" download>Download Resume</a>
                         </div>
                     </div>
                 </div>

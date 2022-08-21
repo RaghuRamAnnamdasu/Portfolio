@@ -10,13 +10,16 @@
 }
 
 .aboutMe {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 0;
+    color: #FFAC00;
+    margin-bottom: 12px;
 }
 
 .aboutMeDescription {
     margin-bottom: 16px;
+    font-size: 16px;
 }
 
 .info {
@@ -56,7 +59,7 @@
 
 .profileImage {
     background-image: url(profileImage.jpg);
-    height: 500px;
+    height: 450px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

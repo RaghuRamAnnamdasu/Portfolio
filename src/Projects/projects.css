@@ -39,3 +39,7 @@
 .projectDescription b {
     font-size: 18px;
 }
+
+.projectWrapper a{
+    text-decoration: none;
+}
