@@ -10,14 +10,6 @@ import "./resumeSection.css";
 import { Skills } from './Skills/skills';
 
 export function ResumeSection({resumeRef}) {
-    // const educationRef = useRef(null);
-    // const experienceRef = useRef(null);
-    // const skillsRef = useRef(null);
-
-    // const educationInView = useIsInViewport(educationRef);
-    // const experienceInView = useIsInViewport(experienceRef);
-    // const skillsInView = useIsInViewport(skillsRef);
-
     const {ref: educationRef, inView: educationInView} = useInView({threshold : 0.5});
     const {ref: experienceRef, inView: experienceInView} = useInView({threshold : 0.6});
     const {ref: skillsRef, inView: skillsInView} = useInView({threshold : 0.5});
@@ -41,30 +33,3 @@ export function ResumeSection({resumeRef}) {
         </section>
     );
 }
-
-function useIsInViewport(ref) {
-    const [isIntersecting, setIsIntersecting] = useState(false);
-  
-    const observer = useMemo(
-      () =>
-        new IntersectionObserver(([entry]) => {
-            setIsIntersecting(entry.isIntersecting);
-        },
-        {
-            root: null,
-            rootMargin: "0px",
-            threshold: 0.5
-        }),
-      [],
-    );
-  
-    useEffect(() => {
-      observer.observe(ref.current);
-  
-      return () => {
-        observer.disconnect();
-      };
-    }, [ref, observer]);
-  
-    return isIntersecting;
-  }

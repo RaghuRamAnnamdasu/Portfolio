@@ -3,9 +3,11 @@
     scroll-margin-block-start: 80px;
 }
 
-.projectsContainer img {
+
+.projectCard img {
     width: 350px;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
 }
 
 .projectsContainer h2 {
@@ -23,9 +25,11 @@
 }
 
 .projectWrapper {
-    display: grid;
+    display : flex;
+    gap : 48px;
     justify-content: center;
-    text-align: initial;
+    flex-wrap: wrap;
+    
 }
 
 .projectDescription {
@@ -36,8 +40,9 @@
     font-size: 17px;
 }
 
-.projectDescription b {
+.projectDescription {
     font-size: 18px;
+    height: 220px;
 }
 
 .projectWrapper a{

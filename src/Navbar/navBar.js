@@ -13,12 +13,12 @@ export function Navbar({aboutInView, resumeInView, contactInView, projectsInView
   return (
     <div className="navBarContainer">
         <div className='name'>Raghu Ram Annamdasu</div>
-        <div className="leftNavSection">
+        <div className="rightNavSection">
             <div className={displayNavLinks ? "displayNavLinks" : "leftNavLinks"}>
-              <a href="#about" className={aboutInView ? "active" : ""}><span>About</span></a>
-              <a href="#resume" className={resumeInView ? "active": ""}><span>Resume</span></a>
-              <a href="#projects" className={projectsInView ? "active" :""}><span>Projects</span></a>
-              <a href="#contact" className={contactInView ? "active" : ""}><span>Contact</span></a>
+              <a href="#about" className={aboutInView ? "active" : ""}>About</a>
+              <a href="#resume" className={resumeInView ? "active": ""}>Resume</a>
+              <a href="#projects" className={projectsInView ? "active" :""}>Projects</a>
+              <a href="#contact" className={contactInView ? "active" : ""}>Contact</a>
             </div>
             <div className="navBarIcon" onClick={showNavLinks}>
               <ViewHeadlineIcon />
