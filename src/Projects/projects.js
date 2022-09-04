@@ -13,7 +13,7 @@ export function Projects({projectsRef}) {
             projectImage : "https://149351115.v2.pressablecdn.com/wp-content/uploads/2018/05/SO_Teams.png",
             projectTitle : "Stack Overflow Clone",
             projectDescription : "It is a question and answer website for professional and enthusiast programmers. It features questions and answers on a wide range of topics in computer programming and the website serves as a platform for users to ask and answer questions.",
-            projectLink : "https://chimerical-salmiakki-4bb982.netlify.app/"
+            projectLink : "https://frabjous-maamoul-63a380.netlify.app/"
         }
     ];
 
