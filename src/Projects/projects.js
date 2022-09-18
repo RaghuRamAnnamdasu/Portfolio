@@ -4,9 +4,15 @@ export function Projects({projectsRef}) {
 
     const projectData = [
         {
+            projectImage : "./Images/carRentals.png",
+            projectTitle : "Car Rentals",
+            projectDescription : "A2Z Cars is a car rental application where people can check the availability of cars in their desired time slots and location to book them. Also can view booked history through this application.",
+            projectLink : "https://mellifluous-dieffenbachia-fe1424.netlify.app/"
+        },
+        {
             projectImage : "./Images/capstoneImage.png",
-            projectTitle : "Zen Class Student Dashboard",
-            projectDescription : "Learn Infinity is a zen class student dashboard application where every student can attend the classes, avail courses and monitor his/her taks and courses status.",
+            projectTitle : "Student Dashboard",
+            projectDescription : "Learn Infinity is a student dashboard application where every student can attend the classes, avail courses and monitor his/her taks and courses status.",
             projectLink : "https://frabjous-cheesecake-7e93d1.netlify.app/"
         },
         {

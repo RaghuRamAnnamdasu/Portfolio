@@ -14,7 +14,7 @@ export function AboutSection({aboutRef}) {
             <Grid item xs={12} md={7}>
                 <div className="aboutRightSection">
                     <h2 className="aboutMe">About Me</h2>
-                    <div className="aboutMeDescription">An enthusiastic and high-energy driven professional, targeting assignment in Software Development with an organization of repute. M.Tech (PowerSystems, IIT-Dhanbad) qualified professional offering around 5 years of experience in Electrical design of Switchgear for Industrial plants.</div>
+                    <div className="aboutMeDescription">An enthusiastic and high-energy driven professional, targeting assignment in Software Development with an organization of repute. M.Tech (PowerSystems, IIT-Dhanbad) qualified professional offered around 5 years of experience in Electrical design of Switchgear for Industrial plants.</div>
                     <div className="aboutMeInfo">
                         <div className="info">
                             <span className="name">Name:</span>
