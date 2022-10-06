@@ -28,7 +28,7 @@ export const SKILLS = [
         imageURL: "https://opencollective-production.s3.us-west-1.amazonaws.com/ada636e0-395b-11ea-8ab7-b3f0317bbc7c.png"
     },
     {
-        title: "SQL",
+        title: "MySQL",
         imageURL: "https://logodix.com/logo/1327215.png"
     },
     {
