@@ -115,4 +115,5 @@
     display: GRID;
     align-content: center;
     background-position: center;
+    max-height: 620px;
 }
