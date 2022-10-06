@@ -27,15 +27,17 @@ export function Contact({contactRef}) {
               <div>7382481437</div>
             </Grid>
             <Grid item className="github" textAlign="center">
-              <GitHubIcon />
-              <h3>GitHub</h3>
-              <div><a href = "https://github.com/RaghuRamAnnamdasu" target = "_blank">RaghuRamAnnamdasu-Github</a></div>
+              <a href = "https://github.com/RaghuRamAnnamdasu" target = "_blank">
+                <GitHubIcon />
+                <h3>GitHub</h3>
+              </a>
             </Grid>
-            {/* <Grid item className="linkedIn" textAlign="center">
-              <LinkedInIcon />
-              <h3>LinkedIn</h3>
-              <div><a href = "https://www.linkedin.com/in/raghu-ram-45768497/" target = "_blank">RaghuRamAnnamdasu-LinkedIn</a></div>
-            </Grid> */}
+            <Grid item className="linkedIn" textAlign="center">
+              <a href = "https://www.linkedin.com/in/raghu-ram-b76802251/" target = "_blank">
+                <LinkedInIcon />
+                <h3>LinkedIn</h3>
+              </a>
+            </Grid>
           </Grid>
           <Grid item md={6} xs={12}><ContactForm /></Grid>
         </Grid>

@@ -2,7 +2,7 @@ import ViewHeadlineIcon from '@mui/icons-material/ViewHeadline';
 import { useState } from 'react';
 import "./navBar.css";
 
-export function Navbar({aboutInView, resumeInView, contactInView, projectsInView}) {
+export function Navbar({aboutInView, skillsInView, contactInView, projectsInView}) {
 
   const [displayNavLinks, setNavLinksDisplay] = useState(false);
 
@@ -16,7 +16,7 @@ export function Navbar({aboutInView, resumeInView, contactInView, projectsInView
         <div className="rightNavSection">
             <div className={displayNavLinks ? "displayNavLinks" : "leftNavLinks"}>
               <a href="#about" className={aboutInView ? "active" : ""}>About</a>
-              <a href="#resume" className={resumeInView ? "active": ""}>Resume</a>
+              <a href="#skills" className={skillsInView ? "active": ""}>Skills</a>
               <a href="#projects" className={projectsInView ? "active" :""}>Projects</a>
               <a href="#contact" className={contactInView ? "active" : ""}>Contact</a>
             </div>

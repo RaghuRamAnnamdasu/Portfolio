@@ -20,7 +20,8 @@
 
 .contactNumber,
 .emailAddress,
-.github {
+.github,
+.LinkedIn{
     /* box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
     background: #242424;
     padding: 24px 8px; */
@@ -57,7 +58,8 @@
 .github a,
 .linkedIn a {
     color: darkslateblue;
-    font-size: 20px;
+    /* font-size: 20px; */
+    text-decoration: none;
 }
 
 .contactFormContainer {
