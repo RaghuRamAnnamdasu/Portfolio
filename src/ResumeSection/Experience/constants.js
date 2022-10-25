@@ -14,7 +14,7 @@ export const ExperienceDetails = [
     {
         profession: "Senior Associate Consultant",
         company: "Infosys",
-        jobDescription: "Design of electrical system for Gas Compressor plants, ensure the completion of all project drawings and supervision of 3D modelling of the project",
+        jobDescription: "Worked on front end web development using React library and Redux.",
         year: "Nov 2021 - May 2022"
     }
 ];
